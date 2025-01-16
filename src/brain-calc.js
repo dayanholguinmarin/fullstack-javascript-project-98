@@ -5,14 +5,14 @@ import saludos from "../src/cli.js";
 const name = saludos ()
 
 function matematicaAleatoria(min, max) {  
-   return Math.floor(Math.random() * (max - min + 1)) + min;  
+   return Math.floor(Math.random() * (max - min + 1)) + min;  //esta formula con math es la que me da numeros aleatorios
     
 }  
 
 export default function calcular() {
 
  for (let i = 0; i < 3; i++) {  
-        const numero1 = matematicaAleatoria(1, 100);  
+        const numero1 = matematicaAleatoria(1, 100);  // y asi es como siempre debo llamar esos numeros aleatorios
         const numero2 = matematicaAleatoria(1, 100);
         const operadores = ['+', '-', '*'];  
         const operador = operadores[Math.floor(Math.random() * operadores.length)]; 
