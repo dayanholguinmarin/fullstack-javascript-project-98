@@ -35,4 +35,5 @@ export default function MaxComunDivisor() {
         }
     }
 
+    console.log(`¡Felicidades, ${name}!`); 
 }

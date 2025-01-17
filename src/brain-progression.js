@@ -41,5 +41,6 @@ export default function progresion() {
       return
     }
   }
+  console.log(`¡Felicidades, ${name}!`); 
 };
 
