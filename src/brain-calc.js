@@ -42,4 +42,5 @@ export default function calcular() {
       return 
    }
  }  
-}
+ console.log(`¡Felicidades, ${name}!`); 
+};
