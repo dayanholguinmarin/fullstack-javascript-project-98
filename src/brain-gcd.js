@@ -30,7 +30,7 @@ export default function MaxComunDivisor() {
             console.log("correcto")
         } else {
             console.log(`${pregunta} es una respuesta incorrecta ;(. La respuesta correcta era ${mcd}.`)
-            console.log(`¡Intentémoslo de nuevo, ${name}`)
+            console.log(`¡Intentémoslo de nuevo, ${name}!`)
             return
         }
     }

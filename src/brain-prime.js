@@ -33,7 +33,7 @@ for (let i = 0; i < 3; i++) {
       console.log("correcto")
     } else {
        console.log(`${pregunta} es la respuesta incorrecta: la respuesta correcta es: ${resultadoCorrecto}.`)
-       console.log(`¡Intentémoslo de nuevo, ${name}`)
+       console.log(`¡Intentémoslo de nuevo, ${name}!`)
        return 
     }
 

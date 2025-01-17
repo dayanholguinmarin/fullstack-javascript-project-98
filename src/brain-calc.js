@@ -38,7 +38,7 @@ export default function calcular() {
      console.log("correcto")
    } else {
       console.log(`incorrecto : la respuesta correcta es: ${resultadoCorrecto}.`)
-      console.log(`¡Intentémoslo de nuevo, ${name}`)
+      console.log(`¡Intentémoslo de nuevo, ${name}!`)
       return 
    }
  }  

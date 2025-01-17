@@ -37,7 +37,7 @@ export default function progresion() {
       console.log("correcto")
     } else {
       console.log(`${pregunta} es la respuesta incorrecta: la respuesta correcta es: ${resultadoCorrecto}.`)
-      console.log(`¡Intentémoslo de nuevo, ${name}`)
+      console.log(`¡Intentémoslo de nuevo, ${name}!`)
       return
     }
   }
