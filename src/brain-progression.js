@@ -32,7 +32,7 @@ export default function progresion() {
 
 
 
-    const pregunta = readlineSync.question(`Pregunta: ${progresionContinua.join(', ')}. ¿Qué número falta en la progresión?`);
+    const pregunta = readlineSync.question(`Pregunta: ${progresionContinua.join(' ')}. ¿Qué número falta en la progresión?`);
     if (parseInt(pregunta) === resultadoCorrecto) {
       console.log("correcto")
     } else {
