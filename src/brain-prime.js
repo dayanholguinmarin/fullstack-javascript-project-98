@@ -16,7 +16,7 @@ for (let i = 0; i < 3; i++) {
   let contador = 0;
  
 
-  for (let i = 1; i <= primoRandom; i++) {
+for (let i = 1; i <= primoRandom; i++) {
     
       if (primoRandom % i === 0) {
           contador++;
