@@ -1,24 +1,19 @@
 import readlineSync from 'readline-sync';
 import _ from 'lodash';
-import saludos from "../src/cli.js";
+import saludos from './cli.js';
 
-const name = saludos()
-
+const name = saludos();
 
 export default function progresion() {
-
-  for (let i = 0; i < 3; i++) {
-
-    const progresionItems = _.random(5, 10)
-    let progresionNumber = _.random(1, 10)
-    const progresionsalto = _.random(1, 5)
+  for (let i = 0; i < 3; i += 1) {
+    const progresionItems = _.random(5, 10);
+    let progresionNumber = _.random(1, 10);
+    const progresionsalto = _.random(1, 5);
 
     const progresionContinua = [];
 
-    for (let i = 1; i <= progresionItems; i += 1) {
-
-
-      if (i === 1) {
+    for (let j = 1; j <= progresionItems; j += 1) {
+      if (j === 1) {
         progresionContinua.push(progresionNumber);
       } else {
         progresionNumber += progresionsalto;
@@ -30,17 +25,15 @@ export default function progresion() {
     const resultadoCorrecto = progresionContinua[reemplazoItem];
     progresionContinua[reemplazoItem] = '..';
 
-
-
     const pregunta = readlineSync.question(`Pregunta: ${progresionContinua.join(' ')}. ¿Qué número falta en la progresión?`);
-    if (parseInt(pregunta) === resultadoCorrecto) {
-      console.log("correcto")
+    if (parseInt(pregunta, 10) === resultadoCorrecto) {
+      console.log('correcto');
     } else {
-      console.log(`${pregunta} es la respuesta incorrecta: la respuesta correcta es: ${resultadoCorrecto}.`)
-      console.log(`¡Intentémoslo de nuevo, ${name}!`)
-      return
+      console.log(`${pregunta} es la respuesta incorrecta: la respuesta correcta es: ${resultadoCorrecto}.`);
+      console.log(`¡Intentémoslo de nuevo, ${name}!`);
+      return;
     }
   }
-  console.log(`¡Felicidades, ${name}!`); 
-};
+  console.log(`¡Felicidades, ${name}!`);
+}
 

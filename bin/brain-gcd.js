@@ -2,4 +2,7 @@
 
 import MaxComunDivisor from "../src/brain-gcd.js";
 
-MaxComunDivisor ()
+MaxComunDivisor();
+
+
+

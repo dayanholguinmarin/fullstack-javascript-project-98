@@ -2,4 +2,7 @@
 
 import progresion from "../src/brain-progression.js";
 
-progresion ()
+progresion();
+
+	
+
