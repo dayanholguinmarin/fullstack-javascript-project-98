@@ -25,10 +25,3 @@ export default function FirstQuestion() {
 
   console.log(`¡Felicidades, ${name}!`);
 }
-  
-
-
-
-
-
-
