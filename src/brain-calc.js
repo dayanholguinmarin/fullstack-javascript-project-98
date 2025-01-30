@@ -1,6 +1,4 @@
-
 import readlineSync from 'readline-sync';
-
 import saludos from './cli.js';
 
 const name = saludos();

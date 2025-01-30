@@ -1,8 +1,5 @@
 #!/usr/bin/env node
 
-import MaxComunDivisor from "../src/brain-gcd.js";
+import MaxComunDivisor from '../src/brain-gcd.js';
 
 MaxComunDivisor();
-
-
-

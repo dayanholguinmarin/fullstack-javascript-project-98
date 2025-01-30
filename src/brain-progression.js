@@ -36,4 +36,3 @@ export default function progresion() {
   }
   console.log(`¡Felicidades, ${name}!`);
 }
-

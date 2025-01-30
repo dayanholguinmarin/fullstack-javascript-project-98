@@ -1,4 +1,3 @@
-
 import readlineSync from 'readline-sync';
 import _ from 'lodash';
 import saludos from './cli.js';
